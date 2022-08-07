@@ -1,4 +1,4 @@
 # Sorting-Visualizer
-A website to visualize how different sorting algorithms work.
+A tool that helps us to visualize different sorting algorithms, and hence makes understanding them easier. Hope you like playing around with it.
 
 
