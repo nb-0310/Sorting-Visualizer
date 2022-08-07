@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1 align="center">Sorting Visualizer</h1>
+
+        <ul class="navbar">
+            <li>
+                
+                <ul class="left_nav">
+                    <li>
+                        <button type="button" class="newArray">Generate New Array</button>
+                    </li>
+                    
+                    <li id="input">
+                        <span id="size">Size
+                            <input type="range" id="size_input" min="5" max="100" step="1" value="60">
+                        </span>
+                        
+                        <span id="speed">Speed
+                            <input type="range" id="speed_input" min="20" max="300" stepDown=10 value="60">
+                        </span>
+                    </li>
+                </ul>
+                
+            </li>
+            <li>
+                <ul class="sort_btns">
+                    <li><button type="button" class="bubbleSort">Bubble Sort</button></li>
+                    
+                    <li>
+
+                        <button type="button" class="mergeSort">Merge Sort</button>
+                    </li>
+                    <li>
+
+                        <button type="button" class="quickSort">Quick Sort</button>
+                    </li>
+                    <li>
+                    <button type="button" class="selectionSort">Selection Sort</button>
+
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+
+    <div id="bars" class="flex-container"></div>
+
+    <script src="Scripts/sorting.js"></script>
+    <script src="Scripts/bubblesort.js"></script>
+    <script src="Scripts/mergesort.js"></script>
+    <script src="Scripts/quicksort.js"></script>
+    <script src="Scripts/selectionsort.js"></script>
+</body>
+
+</html>
