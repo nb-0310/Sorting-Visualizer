@@ -87,6 +87,7 @@ span {
     justify-content: space-between;
     gap: 20px;
     align-self: flex-start;
+    padding: 10px;
 }
 
 .flex-container {
@@ -106,10 +107,4 @@ span {
     width: 200px;
     transition: 0.1s all ease;
     background-color: #6699CC;
-}
-
-#input {
-    display: flex;
-    padding: 10px;
-    justify-content: space-between;
 }
